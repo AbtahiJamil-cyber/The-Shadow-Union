@@ -553,7 +553,7 @@
                 </div>
             </div>
             
-            <!-- Ministry Detail Pages (Initially Hidden) -->
+            <!-- Ministry Detail Pages -->
             <div id="swarastra" class="content-page hidden">
                 <div class="page-header">
                     <h1 class="page-title">স্বরাষ্ট্র মন্ত্রণালয়</h1>
@@ -583,8 +583,34 @@
                 </div>
             </div>
             
-            <!-- Other ministry pages would follow similar structure -->
-            <!-- For brevity, I'm showing only one example -->
+            <div id="pororastra" class="content-page hidden">
+                <div class="page-header">
+                    <h1 class="page-title">পররাষ্ট্র মন্ত্রণালয়</h1>
+                    <p class="page-subtitle">আন্তর্জাতিক সম্পর্ক ও কূটনৈতিক কার্যক্রম</p>
+                </div>
+                
+                <div class="content-card">
+                    <h2 class="card-title">মন্ত্রী: আবতাহি বিন জামিল</h2>
+                    
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                        <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                        <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                    </div>
+                    
+                    <div class="responsibilities">
+                        <h4>দায়িত্বসমূহ:</h4>
+                        <ul>
+                            <li>বিদেশী রাষ্ট্র ও আন্তর্জাতিক সংস্থার সাথে সম্পর্ক উন্নয়ন</li>
+                            <li>কূটনৈতিক মিশনসমূহের তত্ত্বাবধান</li>
+                            <li>আন্তর্জাতিক চুক্তি ও সমঝোতা স্মারক সম্পাদন</li>
+                            <li>বিদেশে বাংলাদেশী নাগরিকদের স্বার্থ সংরক্ষণ</li>
+                            <li>আন্তর্জাতিক ফোরামে বাংলাদেশের প্রতিনিধিত্ব</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             
             <div id="porikalpana" class="content-page hidden">
                 <div class="page-header">
@@ -616,10 +642,447 @@
                 </div>
             </div>
             
+            <div id="protirodha" class="content-page hidden">
+                <div class="page-header">
+                    <h1 class="page-title">প্রতিরক্ষা মন্ত্রণালয়</h1>
+                    <p class="page-subtitle>দেশের সার্বভৌমত্ব ও নিরাপত্তা রক্ষা</p>
+                </div>
+                
+                <div class="content-card">
+                    <h2 class="card-title">মন্ত্রী: আবতাহি বিন জামিল</h2>
+                    
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                        <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                        <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                    </div>
+                    
+                    <div class="responsibilities">
+                        <h4>দায়িত্বসমূহ:</h4>
+                        <ul>
+                            <li>সশস্ত্র বাহিনীর প্রশাসনিক কার্যক্রম তত্ত্বাবধান</li>
+                            <li>সेनাবাহিনী, নৌবাহিনী ও বিমানবাহিনীর ব্যবস্থাপনা</li>
+                            <li>রাষ্ট্রের নিরাপত্তা ও প্রতিরক্ষা নীতি প্রণয়ন</li>
+                            <li>সীমান্ত নিরাপত্তা ও অভ্যন্তরীণ নিরাপত্তা বাহিনীর সমন্বয়</li>
+                            <li>প্রতিরক্ষা ক্রয় ও সরঞ্জাম সংগ্রহ</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="bhasa" class="content-page hidden">
+                <div class="page-header">
+                    <h1 class="page-title">ভাষা মন্ত্রণালয়</h1>
+                    <p class="page-subtitle>মাতৃভাষা ও আন্তর্জাতিক ভাষার উন্নয়ন</p>
+                </div>
+                
+                <div class="content-card">
+                    <h2 class="card-title">মন্ত্রী: আবতাহি বিন জামিল</h2>
+                    
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                        <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                        <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                    </div>
+                    
+                    <div class="responsibilities">
+                        <h4>দায়িত্বসমূহ:</h4>
+                        <ul>
+                            <li>বাংলা ভাষার উন্নয়ন ও প্রচার</li>
+                            <li>আদিবাসী ও ক্ষুদ্র নৃগোষ্ঠীর ভাষাসমূহের সংরক্ষণ</li>
+                            <li>ভাষা গবেষণা ও উন্নয়ন কার্যক্রম</li>
+                            <li>আন্তর্জাতিক ভাষা শিক্ষার সুযোগ সম্প্রসারণ</li>
+                            <li>ভাষা নীতি প্রণয়ন ও বাস্তবায়ন</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="ortho" class="content-page hidden">
+                <div class="page-header">
+                    <h1 class="page-title">অর্থ মন্ত্রণালয়</h1>
+                    <p class="page-subtitle>দেশের অর্থনৈতিক ব্যবস্থাপনা ও উন্নয়ন</p>
+                </div>
+                
+                <div class="content-card">
+                    <h2 class="card-title">মন্ত্রী: আবতাহি বিন জামিল</h2>
+                    
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                        <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                        <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                    </div>
+                    
+                    <div class="responsibilities">
+                        <h4>দায়িত্বসমূহ:</h4>
+                        <ul>
+                            <li>জাতীয় বাজেট প্রণয়ন ও বাস্তবায়ন</li>
+                            <li>রাজস্ব নীতি ও কর ব্যবস্থাপনা</li>
+                            <li>অর্থনৈতিক সংস্কার ও উন্নয়ন পরিকল্পনা</li>
+                            <li>সরকারী অর্থ ব্যবস্থাপনা ও হিসাব রক্ষণ</li>
+                            <li>অর্থনৈতিক গবেষণা ও পরিসংখ্যান সংকলন</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="gongsongjog" class="content-page hidden">
+                <div class="page-header">
+                    <h1 class="page-title">গণসংযোগ মন্ত্রণালয়</h1>
+                    <p class="page-subtitle>সরকার ও জনগণের মধ্যে যোগাযোগ স্থাপন</p>
+                </div>
+                
+                <div class="content-card">
+                    <h2 class="card-title">মন্ত্রী: আবতাহি বিন জামিল</h2>
+                    <h3 class="card-title">উপমন্ত্রী: মুহতাসিম বাখতিয়ার রাফাত</h3>
+                    
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                        <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                        <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                    </div>
+                    
+                    <div class="responsibilities">
+                        <h4>দায়িত্বসমূহ:</h4>
+                        <ul>
+                            <li>সরকারী নীতি ও সিদ্ধান্ত সম্পর্কে জনগণকে অবহিতকরণ</li>
+                            <li>জনমত গঠন ও সরকারী কার্যক্রম প্রচার</li>
+                            <li>মাধ্যম ও জনসংযোগ কার্যক্রম সমন্বয়</li>
+                            <li>সাংবাদিকতা ও গণমাধ্যম উন্নয়ন</li>
+                            <li>তথ্য অধিকার আইন বাস্তবায়ন</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="shikkha" class="content-page hidden">
+                <div class="page-header">
+                    <h1 class="page-title">শিক্ষা মন্ত্রণালয়</h1>
+                    <p class="page-subtitle>দেশের শিক্ষা ব্যবস্থার উন্নয়ন ও সম্প্রসারণ</p>
+                </div>
+                
+                <div class="content-card">
+                    <h2 class="card-title">মন্ত্রী: আবতাহি বিন জামিল</h2>
+                    
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                        <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                        <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                    </div>
+                    
+                    <div class="responsibilities">
+                        <h4>দায়িত্বসমূহ:</h4>
+                        <ul>
+                            <li>জাতীয় শিক্ষানীতি প্রণয়ন ও বাস্তবায়ন</li>
+                            <li>প্রাথমিক, মাধ্যমিক ও উচ্চশিক্ষা ব্যবস্থাপনা</li>
+                            <li>শিক্ষক প্রশিক্ষণ ও উন্নয়ন</li>
+                            <li>শিক্ষা প্রতিষ্ঠানের মান নিয়ন্ত্রণ</li>
+                            <li>বৃত্তিমূলক ও কারিগরি শিক্ষা সম্প্রসারণ</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="shilpo" class="content-page hidden">
+                <div class="page-header">
+                    <h1 class="page-title">শিল্প মন্ত্রণালয়</h1>
+                    <p class="page-subtitle>দেশের শিল্পায়ন ও উৎপাদন খাত উন্নয়ন</p>
+                </div>
+                
+                <div class="content-card">
+                    <h2 class="card-title">মন্ত্রী: আবতাহি বিন জামিল</h2>
+                    
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                        <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                        <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                    </div>
+                    
+                    <div class="responsibilities">
+                        <h4>দায়িত্বসমূহ:</h4>
+                        <ul>
+                            <li>শিল্প নীতি প্রণয়ন ও বাস্তবায়ন</li>
+                            <li>শিল্প প্রতিষ্ঠান নিবন্ধন ও নিয়ন্ত্রণ</li>
+                            <li>উদ্যোক্তা উন্নয়ন ও শিল্প ঋণ ব্যবস্থাপনা</li>
+                            <li>শিল্প গবেষণা ও উন্নয়ন কার্যক্রম</li>
+                            <li>রপ্তানি ভিত্তিক শিল্প উন্নয়ন</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="shomajkallyan" class="content-page hidden">
+                <div class="page-header">
+                    <h1 class="page-title">সমাজকল্যাণ মন্ত্রণালয়</h1>
+                    <p class="page-subtitle>সমাজের সুবিধাবঞ্চিত ও দুর্বল শ্রেণীর উন্নয়ন</p>
+                </div>
+                
+                <div class="content-card">
+                    <h2 class="card-title">মন্ত্রী: ইবতিশাম হক জিসান</h2>
+                    <h3 class="card-title">উপমন্ত্রী: মুহতাসিম বাখতিয়ার রাফাত</h3>
+                    
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৮১৮২১৫৯০৪</div>
+                        <div><i class="fas fa-map-marker-alt"></i> রুইগারি, ওয়ালিয়া ইউনিয়ন, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> md ibtisham haque jishan</div>
+                    </div>
+                    
+                    <div class="responsibilities">
+                        <h4>দায়িত্বসমূহ:</h4>
+                        <ul>
+                            <li>দরিদ্র ও সুবিধাবঞ্চিত জনগোষ্ঠীর কল্যাণ</li>
+                            <li>বৃদ্ধ, প্রতিবন্ধী ও অসহায় মানুষের সহায়তা</li>
+                            <li>সামাজিক নিরাপত্তা কর্মসূচি বাস্তবায়ন</li>
+                            <li>এতিম ও অবহেলিত শিশুদের উন্নয়ন</li>
+                            <li>সমাজসেবা ও পুনর্বাসন কার্যক্রম</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="bhumi" class="content-page hidden">
+                <div class="page-header">
+                    <h1 class="page-title">ভূমি মন্ত্রণালয়</h1>
+                    <p class="page-subtitle>ভূমি ব্যবস্থাপনা ও ভূমি সংস্কার</p>
+                </div>
+                
+                <div class="content-card">
+                    <h2 class="card-title">মন্ত্রী: আবতাহি বিন জামিল</h2>
+                    
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                        <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                        <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                    </div>
+                    
+                    <div class="responsibilities">
+                        <h4>দায়িত্বসমূহ:</h4>
+                        <ul>
+                            <li>ভূমি নীতি ও ভূমি সংস্কার কার্যক্রম</li>
+                            <li>ভূমি রেকর্ড ও জরিপ ব্যবস্থাপনা</li>
+                            <li>ভূমি উন্নয়ন ও ভূমি ব্যবহার পরিকল্পনা</li>
+                            <li>ভূমি বিরোধ নিষ্পত্তি ও ভূমি প্রশাসন</li>
+                            <li>কৃষি জমি সংরক্ষণ ও ভূমি উন্নয়ন</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="biggan" class="content-page hidden">
+                <div class="page-header">
+                    <h1 class="page-title">বিজ্ঞান ও প্রযুক্তি মন্ত্রণালয়</h1>
+                    <p class="page-subtitle>বৈজ্ঞানিক গবেষণা ও প্রযুক্তি উন্নয়ন</p>
+                </div>
+                
+                <div class="content-card">
+                    <h2 class="card-title">মন্ত্রী: আবতাহি বিন জামিল</h2>
+                    
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                        <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                        <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                    </div>
+                    
+                    <div class="responsibilities">
+                        <h4>দায়িত্বসমূহ:</h4>
+                        <ul>
+                            <li>বৈজ্ঞানিক গবেষণা ও প্রযুক্তি উন্নয়ন</li>
+                            <li>জাতীয় বিজ্ঞান ও প্রযুক্তি নীতি প্রণয়ন</li>
+                            <li>প্রযুক্তি হস্তান্তর ও উদ্ভাবন প্রচার</li>
+                            <li>বিজ্ঞান শিক্ষা ও জনসচেতনতা বৃদ্ধি</li>
+                            <li>আন্তর্জাতিক বিজ্ঞান ও প্রযুক্তি সহযোগিতা</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="totho" class="content-page hidden">
+                <div class="page-header">
+                    <h1 class="page-title">তথ্য, যোগাযোগ ও সাইবার মন্ত্রণালয়</h1>
+                    <p class="page-subtitle>তথ্য প্রযুক্তি ও সাইবার নিরাপত্তা ব্যবস্থাপনা</p>
+                </div>
+                
+                <div class="content-card">
+                    <h2 class="card-title">মন্ত্রী: আবতাহি বিন জামিল</h2>
+                    
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                        <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                        <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                    </div>
+                    
+                    <div class="responsibilities">
+                        <h4>দায়িত্বসমূহ:</h4>
+                        <ul>
+                            <li>তথ্য ও যোগাযোগ প্রযুক্তি নীতি প্রণয়ন</li>
+                            <li>ডিজিটাল বাংলাদেশ বাস্তবায়ন</li>
+                            <li>সাইবার নিরাপত্তা ও তথ্য সুরক্ষা</li>
+                            <li>ই-গভর্নেন্স ও ডিজিটাল পরিষেবা সম্প্রসারণ</li>
+                            <li>তথ্য প্রযুক্তি শিল্প উন্নয়ন</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="shastho" class="content-page hidden">
+                <div class="page-header">
+                    <h1 class="page-title">স্বাস্থ্য মন্ত্রণালয়</h1>
+                    <p class="page-subtitle>জনস্বাস্থ্য ও চিকিৎসা সেবা ব্যবস্থাপনা</p>
+                </div>
+                
+                <div class="content-card">
+                    <h2 class="card-title">মন্ত্রী: আবতাহি বিন জামিল</h2>
+                    
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                        <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                        <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                    </div>
+                    
+                    <div class="responsibilities">
+                        <h4>দায়িত্বসমূহ:</h4>
+                        <ul>
+                            <li>জাতীয় স্বাস্থ্য নীতি প্রণয়ন ও বাস্তবায়ন</li>
+                            <li>হাসপাতাল ও স্বাস্থ্য কেন্দ্র ব্যবস্থাপনা</li>
+                            <li>মাতৃ ও শিশু স্বাস্থ্য সেবা উন্নয়ন</li>
+                            <li>সংক্রামক ও অসংক্রামক রোগ নিয়ন্ত্রণ</li>
+                            <li>স্বাস্থ্য শিক্ষা ও গবেষণা কার্যক্রম</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="krida" class="content-page hidden">
+                <div class="page-header">
+                    <h1 class="page-title">ক্রীড়া মন্ত্রণালয়</h1>
+                    <p class="page-subtitle>খেলাধুলা ও শারীরিক শিক্ষার উন্নয়ন</p>
+                </div>
+                
+                <div class="content-card">
+                    <h2 class="card-title">মন্ত্রী: আবতাহি বিন জামিল</h2>
+                    
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                        <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                        <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                    </div>
+                    
+                    <div class="responsibilities">
+                        <h4>দায়িত্বসমূহ:</h4>
+                        <ul>
+                            <li>জাতীয় ক্রীড়া নীতি প্রণয়ন ও বাস্তবায়ন</li>
+                            <li>খেলাধুলার অবকাঠামো উন্নয়ন</li>
+                            <li>ক্রীড়াবিদ উন্নয়ন ও প্রশিক্ষণ</li>
+                            <li>জাতীয় ও আন্তর্জাতিক প্রতিযোগিতা আয়োজন</li>
+                            <li>যুব ও কমিউনিটি স্পোর্টস উন্নয়ন</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="poribesh" class="content-page hidden">
+                <div class="page-header">
+                    <h1 class="page-title">পরিবেশ মন্ত্রণালয়</h1>
+                    <p class="page-subtitle>পরিবেশ সংরক্ষণ ও টেকসই উন্নয়ন</p>
+                </div>
+                
+                <div class="content-card">
+                    <h2 class="card-title">মন্ত্রী: আবতাহি বিন জামিল</h2>
+                    <h3 class="card-title">উপমন্ত্রী: মুহতাসিম বাখতিয়ার রাফাত</h3>
+                    
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                        <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                        <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                    </div>
+                    
+                    <div class="responsibilities">
+                        <h4>দায়িত্বসমূহ:</h4>
+                        <ul>
+                            <li>পরিবেশ সংরক্ষণ ও দূষণ নিয়ন্ত্রণ</li>
+                            <li>জলবায়ু পরিবর্তন অভিযোজন ও প্রশমন</li>
+                            <li>বনায়ন ও জীববৈচিত্র্য সংরক্ষণ</li>
+                            <li>পরিবেশগত মূল্যায়ন ও মনিটরিং</li>
+                            <li>টেকসই উন্নয়ন লক্ষ্যমাত্রা বাস্তবায়ন</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="banijjo" class="content-page hidden">
+                <div class="page-header">
+                    <h1 class="page-title">বাণিজ্য মন্ত্রণালয়</h1>
+                    <p class="page-subtitle>বাণিজ্য নীতি ও বাণিজ্যিক সম্পর্ক উন্নয়ন</p>
+                </div>
+                
+                <div class="content-card">
+                    <h2 class="card-title">মন্ত্রী: আবতাহি বিন জামিল</h2>
+                    
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                        <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                        <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                    </div>
+                    
+                    <div class="responsibilities">
+                        <h4>দায়িত্বসমূহ:</h4>
+                        <ul>
+                            <li>বাণিজ্য নীতি প্রণয়ন ও বাস্তবায়ন</li>
+                            <li>আন্তর্জাতিক বাণিজ্য চুক্তি সম্পাদন</li>
+                            <li>রপ্তানি উন্নয়ন ও বৈদেশিক বাণিজ্য সম্প্রসারণ</li>
+                            <li>বাণিজ্যিক প্রতিষ্ঠান নিবন্ধন ও নিয়ন্ত্রণ</li>
+                            <li>ভোক্তা অধিকার সংরক্ষণ</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="ain" class="content-page hidden">
+                <div class="page-header">
+                    <h1 class="page-title">আইন ও বিচার মন্ত্রণালয়</h1>
+                    <p class="page-subtitle>আইন প্রণয়ন ও বিচার বিভাগীয় ব্যবস্থাপনা</p>
+                </div>
+                
+                <div class="content-card">
+                    <h2 class="card-title">মন্ত্রী: আবতাহি বিন জামিল</h2>
+                    
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                        <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                        <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                    </div>
+                    
+                    <div class="responsibilities">
+                        <h4>দায়িত্বসমূহ:</h4>
+                        <ul>
+                            <li>আইন প্রণয়ন ও সংস্কার কার্যক্রম</li>
+                            <li>বিচার বিভাগীয় প্রশাসন ও ব্যবস্থাপনা</li>
+                            <li>আইনগত পরামর্শ ও আইনী সহায়তা প্রদান</li>
+                            <li>আইন পেশাজীবী নিয়ন্ত্রণ ও উন্নয়ন</li>
+                            <li>আন্তর্জাতিক আইনগত বিষয়াদি তত্ত্বাবধান</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
             <div id="nirbachon" class="content-page hidden">
                 <div class="page-header">
                     <h1 class="page-title">স্থানীয় ও নির্বাচন মন্ত্রণালয়</h1>
-                    <p class="page-subtitle">স্থানীয় সরকার ও নির্বাচন ব্যবস্থাপনা</p>
+                    <p class="page-subtitle>স্থানীয় সরকার ও নির্বাচন ব্যবস্থাপনা</p>
                 </div>
                 
                 <div class="content-card">
@@ -646,7 +1109,7 @@
             <div id="khaddo" class="content-page hidden">
                 <div class="page-header">
                     <h1 class="page-title">খাদ্য মন্ত্রণালয়</h1>
-                    <p class="page-subtitle">দেশের খাদ্য নিরাপত্তা নিশ্চিতকরণ</p>
+                    <p class="page-subtitle>দেশের খাদ্য নিরাপত্তা নিশ্চিতকরণ</p>
                 </div>
                 
                 <div class="content-card">
