@@ -1,4 +1,3 @@
-# The-Shadow-Union
 <!DOCTYPE html>
 <html lang="bn">
 <head>
@@ -207,6 +206,22 @@
             color: #666;
         }
         
+        .contact-info {
+            margin-top: 10px;
+        }
+        
+        .contact-info div {
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-info i {
+            width: 20px;
+            margin-right: 10px;
+            color: var(--primary);
+        }
+        
         .responsibilities {
             margin-top: 25px;
         }
@@ -306,9 +321,22 @@
             margin-bottom: 10px;
         }
         
-        .member-bio {
-            color: #666;
+        .member-contact {
+            margin-top: 15px;
+            text-align: left;
             font-size: 0.9rem;
+        }
+        
+        .member-contact div {
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .member-contact i {
+            width: 16px;
+            margin-right: 8px;
+            color: var(--primary);
         }
         
         .leader-card {
@@ -317,7 +345,7 @@
         }
         
         .leader-card .member-name,
-        .leader-card .member-bio {
+        .leader-card .member-contact {
             color: white;
         }
         
@@ -485,6 +513,12 @@
                         <div class="minister-details">
                             <h3>আবতাহি বিন জামিল</h3>
                             <p>প্রধান মন্ত্রী ও ১৬টি মন্ত্রণালয়ের দায়িত্বে</p>
+                            <div class="contact-info">
+                                <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                                <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                                <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                                <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                            </div>
                         </div>
                     </div>
                     
@@ -495,6 +529,10 @@
                         <div class="minister-details">
                             <h3>মুহতাসিম বাখতিয়ার রাফাত</h3>
                             <p>স্থানীয় ও নির্বাচন মন্ত্রী এবং ৪টি মন্ত্রণালয়ের উপমন্ত্রী</p>
+                            <div class="contact-info">
+                                <div><i class="fas fa-map-marker-alt"></i> ফরিদপুর, এবি উনিয়ন, লালপুর, নাটোর</div>
+                                <div><i class="fab fa-facebook"></i> muhtasim bakhtiar rafat</div>
+                            </div>
                         </div>
                     </div>
                     
@@ -505,6 +543,11 @@
                         <div class="minister-details">
                             <h3>ইবতিশাম হক জিসান</h3>
                             <p>খাদ্য ও সমাজকল্যাণ মন্ত্রী এবং পরিকল্পনা উপমন্ত্রী</p>
+                            <div class="contact-info">
+                                <div><i class="fas fa-phone"></i> ০১৮১৮২১৫৯০৪</div>
+                                <div><i class="fas fa-map-marker-alt"></i> রুইগারি, ওয়ালিয়া ইউনিয়ন, লালপুর, নাটোর</div>
+                                <div><i class="fab fa-facebook"></i> md ibtisham haque jishan</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -519,6 +562,13 @@
                 
                 <div class="content-card">
                     <h2 class="card-title">মন্ত্রী: আবতাহি বিন জামিল</h2>
+                    
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                        <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                        <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                    </div>
                     
                     <div class="responsibilities">
                         <h4>দায়িত্বসমূহ:</h4>
@@ -546,6 +596,13 @@
                     <h2 class="card-title">মন্ত্রী: আবতাহি বিন জামিল</h2>
                     <h3 class="card-title">উপমন্ত্রী: ইবতিশাম হক জিসান</h3>
                     
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                        <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                        <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                    </div>
+                    
                     <div class="responsibilities">
                         <h4>দায়িত্বসমূহ:</h4>
                         <ul>
@@ -568,6 +625,11 @@
                 <div class="content-card">
                     <h2 class="card-title">মন্ত্রী: মুহতাসিম বাখতিয়ার রাফাত</h2>
                     
+                    <div class="contact-info">
+                        <div><i class="fas fa-map-marker-alt"></i> ফরিদপুর, এবি উনিয়ন, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> muhtasim bakhtiar rafat</div>
+                    </div>
+                    
                     <div class="responsibilities">
                         <h4>দায়িত্বসমূহ:</h4>
                         <ul>
@@ -589,6 +651,12 @@
                 
                 <div class="content-card">
                     <h2 class="card-title">মন্ত্রী: ইবতিশাম হক জিসান</h2>
+                    
+                    <div class="contact-info">
+                        <div><i class="fas fa-phone"></i> ০১৮১৮২১৫৯০৪</div>
+                        <div><i class="fas fa-map-marker-alt"></i> রুইগারি, ওয়ালিয়া ইউনিয়ন, লালপুর, নাটোর</div>
+                        <div><i class="fab fa-facebook"></i> md ibtisham haque jishan</div>
+                    </div>
                     
                     <div class="responsibilities">
                         <h4>দায়িত্বসমূহ:</h4>
@@ -715,9 +783,22 @@
                             font-size: 1.1rem;
                         }
                         
-                        .member-bio {
-                            opacity: 0.8;
-                            line-height: 1.6;
+                        .member-contact {
+                            margin-top: 15px;
+                            text-align: left;
+                            font-size: 0.9rem;
+                        }
+                        
+                        .member-contact div {
+                            margin-bottom: 5px;
+                            display: flex;
+                            align-items: center;
+                        }
+                        
+                        .member-contact i {
+                            width: 16px;
+                            margin-right: 8px;
+                            color: #ffcc00;
                         }
                         
                         .leader-card {
@@ -756,7 +837,12 @@
                                 </div>
                                 <h2 class="member-name">আবতাহি বিন জামিল</h2>
                                 <div class="member-position">লিডার</div>
-                                <p class="member-bio">দলের প্রধান নেতা ও সর্বোচ্চ নীতিনির্ধারক। ১৬টি মন্ত্রণালয়ের দায়িত্বে রয়েছেন।</p>
+                                <div class="member-contact">
+                                    <div><i class="fas fa-phone"></i> ০১৭৭৪৯৮১৩১২</div>
+                                    <div><i class="fas fa-map-marker-alt"></i> গোপাল্পুর, লালপুর, নাটোর</div>
+                                    <div><i class="fab fa-facebook"></i> Mohammed Sabbir hossain</div>
+                                    <div><i class="fab fa-instagram"></i> dadajongi prisoner</div>
+                                </div>
                             </div>
                             
                             <div class="member-card leader-card">
@@ -765,7 +851,10 @@
                                 </div>
                                 <h2 class="member-name">মুহতাসিম বখতিয়ার রাফাত</h2>
                                 <div class="member-position">সিনিয়র লিডার</div>
-                                <p class="member-bio">স্থানীয় ও নির্বাচন মন্ত্রী এবং ৪টি মন্ত্রণালয়ের উপমন্ত্রী। দলের অন্যতম প্রধান নীতিনির্ধারক।</p>
+                                <div class="member-contact">
+                                    <div><i class="fas fa-map-marker-alt"></i> ফরিদপুর, এবি উনিয়ন, লালপুর, নাটোর</div>
+                                    <div><i class="fab fa-facebook"></i> muhtasim bakhtiar rafat</div>
+                                </div>
                             </div>
                             
                             <div class="member-card leader-card">
@@ -774,16 +863,23 @@
                                 </div>
                                 <h2 class="member-name">ইবতিশাম হক জিসান</h2>
                                 <div class="member-position">সিনিয়র লিডার</div>
-                                <p class="member-bio">খাদ্য ও সমাজকল্যাণ মন্ত্রী এবং পরিকল্পনা উপমন্ত্রী। দলের অন্যতম প্রধান নীতিনির্ধারক।</p>
+                                <div class="member-contact">
+                                    <div><i class="fas fa-phone"></i> ০১৮১৮২১৫৯০৪</div>
+                                    <div><i class="fas fa-map-marker-alt"></i> রুইগারি, ওয়ালিয়া ইউনিয়ন, লালপুর, নাটোর</div>
+                                    <div><i class="fab fa-facebook"></i> md ibtisham haque jishan</div>
+                                </div>
                             </div>
                             
                             <div class="member-card">
                                 <div class="member-avatar">
                                     <i class="fas fa-user"></i>
                                 </div>
-                                <h2 class="member-name">অরিক হোসাইন</h2>
+                                <h2 class="member-name">আরিক হোসাইন</h2>
                                 <div class="member-position">সদস্য</div>
-                                <p class="member-bio">দলের গুরুত্বপূর্ণ সদস্য ও বিভিন্ন কমিটিতে সক্রিয় ভূমিকা পালন করছেন।</p>
+                                <div class="member-contact">
+                                    <div><i class="fas fa-map-marker-alt"></i> গোপালপুর, লালপুর, নাটোর</div>
+                                    <div><i class="fas fa-info-circle"></i> মিডিয়া: N/A</div>
+                                </div>
                             </div>
                             
                             <div class="member-card">
@@ -792,7 +888,10 @@
                                 </div>
                                 <h2 class="member-name">আদনান হোসেন</h2>
                                 <div class="member-position">সদস্য</div>
-                                <p class="member-bio">দলের গুরুত্বপূর্ণ সদস্য ও বিভিন্ন কমিটিতে সক্রিয় ভূমিকা পালন করছেন।</p>
+                                <div class="member-contact">
+                                    <div><i class="fas fa-map-marker-alt"></i> ফরিদপুর, এবি উনিয়ন, লালপুর, নাটোর</div>
+                                    <div><i class="fas fa-info-circle"></i> মিডিয়া: নেই</div>
+                                </div>
                             </div>
                         </div>
                         
