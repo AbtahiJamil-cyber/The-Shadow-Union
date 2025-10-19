@@ -326,6 +326,33 @@
                     </div>
                 </div>
 
+                <!-- ভাষা -->
+                <div class="ministry-card" data-ministry="vasa">
+                    <div class="card-icon">🗣️</div>
+                    <h3 class="card-title">ভাষা</h3>
+                    <p class="card-description">দলের ভাষা ও সংস্কৃতি সংশ্লিষ্ট কার্যক্রম এই মন্ত্রণালয়ের আওতাধীন।</p>
+                    <div class="card-minister">মন্ত্রী: আবতাহি বিন জামিল</div>
+                    <div class="card-action">
+                        <button class="open-tab-btn" onclick="openMinistryTab('vasa')">
+                            <i class="fas fa-external-link-alt"></i> খুলুন
+                        </button>
+                    </div>
+                </div>
+
+                <!-- তথ্য, যোগাযোগ ও সাইবার -->
+                <div class="ministry-card" data-ministry="totto">
+                    <div class="card-icon">📡</div>
+                    <h3 class="card-title">তথ্য, যোগাযোগ ও সাইবার</h3>
+                    <p class="card-description">দলের তথ্য ব্যবস্থাপনা ও যোগাযোগ এই মন্ত্রণালয়ের আওতাধীন।</p>
+                    <div class="card-minister">মন্ত্রী: আবতাহি বিন জামিল</div>
+                    <div class="card-action">
+                        <button class="open-tab-btn" onclick="openMinistryTab('totto')">
+                            <i class="fas fa-external-link-alt"></i> খুলুন
+                        </button>
+                    </div>
+                </div>
+
+                <!-- অন্যান্য মন্ত্রণালয়গুলো... -->
                 <!-- গণসংযোগ -->
                 <div class="ministry-card" data-ministry="gonosongjog">
                     <div class="card-icon">📢</div>
@@ -386,19 +413,6 @@
                     <div class="card-minister">মন্ত্রী: আবতাহি বিন জামিল</div>
                     <div class="card-action">
                         <button class="open-tab-btn" onclick="openMinistryTab('biggan')">
-                            <i class="fas fa-external-link-alt"></i> খুলুন
-                        </button>
-                    </div>
-                </div>
-
-                <!-- তথ্য, যোগাযোগ ও সাইবার -->
-                <div class="ministry-card" data-ministry="totto">
-                    <div class="card-icon">📡</div>
-                    <h3 class="card-title">তথ্য, যোগাযোগ ও সাইবার</h3>
-                    <p class="card-description">দলের তথ্য ব্যবস্থাপনা ও যোগাযোগ এই মন্ত্রণালয়ের আওতাধীন।</p>
-                    <div class="card-minister">মন্ত্রী: আবতাহি বিন জামিল</div>
-                    <div class="card-action">
-                        <button class="open-tab-btn" onclick="openMinistryTab('totto')">
                             <i class="fas fa-external-link-alt"></i> খুলুন
                         </button>
                     </div>
@@ -465,7 +479,7 @@
                     <div class="card-minister">মন্ত্রী: আবতাহি বিন জামিল</div>
                     <div class="card-action">
                         <button class="open-tab-btn" onclick="openMinistryTab('ain')">
-                            <i class="fas fa-external-link-alt"></i> খুলুন
+                            <i class="fas fa-external-link-alt"></i> খulুন
                         </button>
                     </div>
                 </div>
@@ -534,6 +548,11 @@
                             <h3>স্বরাষ্ট্র মন্ত্রণালয়</h3>
                             <p>দলের অভ্যন্তরীণ বিষয় ও নিরাপত্তা ব্যবস্থাপনা এই মন্ত্রণালয়ের আওতাধীন।</p>
                             <div class="minister-name">মন্ত্রী: আবতাহি বিন জামিল</div>
+                            <div class="back-btn-container">
+                                <button class="back-btn" onclick="window.close()">
+                                    <i class="fas fa-arrow-left"></i> মূল পৃষ্ঠায় ফিরে যান
+                                </button>
+                            </div>
                         </div>
                     `
                 },
@@ -553,12 +572,17 @@
                                 </div>
                                 <div class="enemy-card">
                                     <h4>মিসবাহ</h4>
-                                    <p>নাম্বার: ০১৭০১৪৬৯০৫৯</p>
+                                    <p>নাম্বার: ০১৩২২৩২৭৩৩৫</p>
                                 </div>
                                 <div class="enemy-card">
                                     <h4>জিল</h4>
                                     <p>ফেসবুক অ্যাকাউন্ট: mobarok hossain jill</p>
                                 </div>
+                            </div>
+                            <div class="back-btn-container">
+                                <button class="back-btn" onclick="window.close()">
+                                    <i class="fas fa-arrow-left"></i> মূল পৃষ্ঠায় ফিরে যান
+                                </button>
                             </div>
                         </div>
                     `
@@ -582,6 +606,11 @@
                             <div class="minister-name">মন্ত্রী: আবতাহি বিন জামিল</div>
                             
                             <h3>সদস্য অ্যাকাউন্টসমূহ</h3>
+                            <div class="reset-balance-section">
+                                <button class="reset-balance-btn" onclick="resetAllBalances()">
+                                    <i class="fas fa-sync-alt"></i> সকলের ব্যালেন্স ০ টাকা করুন
+                                </button>
+                            </div>
                             <div class="accounts-grid">
                                 <div class="account-card banker-card">
                                     <div class="account-header">
@@ -626,9 +655,347 @@
                                     <div class="account-balance balance-zero">৳ 0</div>
                                 </div>
                             </div>
+                            <div class="back-btn-container">
+                                <button class="back-btn" onclick="window.close()">
+                                    <i class="fas fa-arrow-left"></i> মূল পৃষ্ঠায় ফিরে যান
+                                </button>
+                            </div>
+                        </div>
+                    `
+                },
+                'totto': {
+                    title: 'তথ্য, যোগাযোগ ও সাইবার মন্ত্রণালয়',
+                    content: `
+                        <div class="content-box">
+                            <h3>তথ্য, যোগাযোগ ও সাইবার মন্ত্রণালয়</h3>
+                            <p>দলের তথ্য ব্যবস্থাপনা ও যোগাযোগ এই মন্ত্রণালয়ের আওতাধীন।</p>
+                            <div class="minister-name">মন্ত্রী: আবতাহি বিন জামিল</div>
+                            
+                            <h4>দলের অফিসিয়াল অ্যাকাউন্টসমূহ:</h4>
+                            <div class="accounts-grid">
+                                <div class="account-card">
+                                    <div class="account-header">
+                                        <div class="account-name">জিমেইল ১</div>
+                                    </div>
+                                    <div class="account-details">
+                                        <p><strong>ইমেইল:</strong> theshadowunion123@gmail.com</p>
+                                        <p><strong>পাসওয়ার্ড:</strong> TSU2025@#1234</p>
+                                        <p><strong>বিশেষ তথ্য:</strong> সকল তথ্য ড্রাইভে সেভ থাকে এই জিমেইলে</p>
+                                    </div>
+                                </div>
+                                <div class="account-card">
+                                    <div class="account-header">
+                                        <div class="account-name">জিমেইল ২</div>
+                                    </div>
+                                    <div class="account-details">
+                                        <p><strong>ইমেইল:</strong> mdrajubohemian@gmail.com</p>
+                                        <p><strong>পাসওয়ার্ড:</strong> জানা নেই</p>
+                                    </div>
+                                </div>
+                                <div class="account-card">
+                                    <div class="account-header">
+                                        <div class="account-name">জিমেইল ৩</div>
+                                    </div>
+                                    <div class="account-details">
+                                        <p><strong>ইমেইল:</strong> abcyclist123@gmail.com</p>
+                                        <p><strong>পাসওয়ার্ড:</strong> abcyclist2012prr</p>
+                                        <p><strong>ইউটিউব চ্যানেল:</strong> AB cyclist</p>
+                                    </div>
+                                </div>
+                                <div class="account-card">
+                                    <div class="account-header">
+                                        <div class="account-name">ফেসবুক</div>
+                                    </div>
+                                    <div class="account-details">
+                                        <p><strong>অ্যাকাউন্ট:</strong> mohammed sabbir hossain</p>
+                                        <p><strong>জিমেইল:</strong> theshadowunion123@gmail.com</p>
+                                        <p><strong>পাসওয়ার্ড:</strong> TSU2025@#1234</p>
+                                    </div>
+                                </div>
+                                <div class="account-card">
+                                    <div class="account-header">
+                                        <div class="account-name">ইনস্টাগ্রাম</div>
+                                    </div>
+                                    <div class="account-details">
+                                        <p><strong>অ্যাকাউন্ট:</strong> dadajongiprisoner</p>
+                                        <p><strong>জিমেইল:</strong> abcyclist123@gmail.com</p>
+                                        <p><strong>পাসওয়ার্ড:</strong> amipuronpasa040912</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back-btn-container">
+                                <button class="back-btn" onclick="window.close()">
+                                    <i class="fas fa-arrow-left"></i> মূল পৃষ্ঠায় ফিরে যান
+                                </button>
+                            </div>
+                        </div>
+                    `
+                },
+                'vasa': {
+                    title: 'ভাষা মন্ত্রণালয়',
+                    content: `
+                        <div class="content-box">
+                            <h3>ভাষা মন্ত্রণালয়</h3>
+                            <p>দলের ভাষা ও সংস্কৃতি সংশ্লিষ্ট কার্যক্রম এই মন্ত্রণালয়ের আওতাধীন।</p>
+                            <div class="minister-name">মন্ত্রী: আবতাহি বিন জামিল</div>
+                            <div class="back-btn-container">
+                                <button class="back-btn" onclick="window.close()">
+                                    <i class="fas fa-arrow-left"></i> মূল পৃষ্ঠায় ফিরে যান
+                                </button>
+                            </div>
                         </div>
                     `
                 }
+                // অন্যান্য মন্ত্রণালয়ের কন্টেন্ট এখানে যোগ করা যাবে
+            };
+
+            const data = ministryData[ministry] || {
+                title: `${getMinistryName(ministry)} মন্ত্রণালয়`,
+                content: `
+                    <div class="content-box">
+                        <h3>${getMinistryName(ministry)} মন্ত্রণালয়</h3>
+                        <p>এই মন্ত্রণালয়ের বিস্তারিত তথ্য শীঘ্রই যোগ করা হবে।</p>
+                        <div class="back-btn-container">
+                            <button class="back-btn" onclick="window.close()">
+                                <i class="fas fa-arrow-left"></i> মূল পৃষ্ঠায় ফিরে যান
+                            </button>
+                        </div>
+                    </div>
+                `
+            };
+
+            const ministryWindow = window.open('', '_blank');
+            ministryWindow.document.write(`
+                <!DOCTYPE html>
+                <html lang="bn">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>${data.title} - The Shadow Union</title>
+                    <style>
+                        body {
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                            margin: 0;
+                            padding: 20px;
+                            background-color: #1a1a2e;
+                            color: white;
+                            line-height: 1.6;
+                        }
+                        .container {
+                            max-width: 1000px;
+                            margin: 0 auto;
+                        }
+                        .header {
+                            text-align: center;
+                            padding: 20px;
+                            background: #16213e;
+                            border-radius: 10px;
+                            margin-bottom: 20px;
+                        }
+                        .header h1 {
+                            color: #e94560;
+                            margin-bottom: 10px;
+                        }
+                        .content-box {
+                            background: rgba(255,255,255,0.05);
+                            border-radius: 10px;
+                            padding: 20px;
+                            margin-bottom: 20px;
+                        }
+                        .content-box h3 {
+                            color: #e94560;
+                            margin-bottom: 15px;
+                        }
+                        .content-box h4 {
+                            color: #e94560;
+                            margin: 20px 0 10px 0;
+                        }
+                        .minister-name {
+                            background: rgba(15,52,96,0.5);
+                            padding: 10px 15px;
+                            border-radius: 5px;
+                            display: inline-block;
+                            margin: 10px 0;
+                            color: white;
+                            font-weight: bold;
+                        }
+                        .accounts-grid {
+                            display: grid;
+                            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                            gap: 15px;
+                            margin-top: 20px;
+                        }
+                        .account-card {
+                            background: rgba(255,255,255,0.05);
+                            border-radius: 8px;
+                            padding: 15px;
+                            border-left: 4px solid #0f3460;
+                        }
+                        .banker-card {
+                            background: rgba(15,52,96,0.3);
+                            border-left: 4px solid #e94560;
+                        }
+                        .account-header {
+                            display: flex;
+                            justify-content: space-between;
+                            margin-bottom: 10px;
+                        }
+                        .account-name {
+                            font-weight: bold;
+                        }
+                        .account-number {
+                            font-size: 0.9rem;
+                            opacity: 0.7;
+                        }
+                        .account-balance {
+                            font-size: 1.5rem;
+                            font-weight: bold;
+                            text-align: center;
+                            padding: 10px;
+                            border-radius: 5px;
+                            background: rgba(0,0,0,0.2);
+                        }
+                        .balance-zero {
+                            color: #f39c12;
+                        }
+                        .balance-positive {
+                            color: #2ecc71;
+                        }
+                        .bank-header {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            margin-bottom: 20px;
+                        }
+                        .bank-logo {
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                        }
+                        .total-balance {
+                            background: linear-gradient(135deg, #0f3460, #e94560);
+                            padding: 15px 25px;
+                            border-radius: 10px;
+                            text-align: center;
+                        }
+                        .enemy-list {
+                            display: flex;
+                            flex-wrap: wrap;
+                            gap: 15px;
+                            margin-top: 15px;
+                        }
+                        .enemy-card {
+                            background: rgba(229,69,96,0.1);
+                            border: 1px solid rgba(229,69,96,0.3);
+                            border-radius: 8px;
+                            padding: 15px;
+                            flex: 1;
+                            min-width: 200px;
+                        }
+                        .enemy-card h4 {
+                            color: #e94560;
+                            margin-bottom: 8px;
+                        }
+                        .back-btn-container {
+                            text-align: center;
+                            margin-top: 30px;
+                        }
+                        .back-btn {
+                            background: linear-gradient(45deg, #0f3460, #e94560);
+                            color: white;
+                            border: none;
+                            padding: 12px 25px;
+                            border-radius: 25px;
+                            cursor: pointer;
+                            font-weight: bold;
+                            transition: all 0.3s ease;
+                            display: inline-flex;
+                            align-items: center;
+                            gap: 8px;
+                        }
+                        .back-btn:hover {
+                            transform: scale(1.05);
+                            box-shadow: 0 5px 15px rgba(233, 69, 96, 0.4);
+                        }
+                        .reset-balance-section {
+                            text-align: center;
+                            margin: 20px 0;
+                        }
+                        .reset-balance-btn {
+                            background: linear-gradient(45deg, #f39c12, #e74c3c);
+                            color: white;
+                            border: none;
+                            padding: 12px 20px;
+                            border-radius: 25px;
+                            cursor: pointer;
+                            font-weight: bold;
+                            transition: all 0.3s ease;
+                            display: inline-flex;
+                            align-items: center;
+                            gap: 8px;
+                        }
+                        .reset-balance-btn:hover {
+                            transform: scale(1.05);
+                            box-shadow: 0 5px 15px rgba(243, 156, 18, 0.4);
+                        }
+                        .account-details p {
+                            margin: 8px 0;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div class="container">
+                        <div class="header">
+                            <h1>${data.title}</h1>
+                            <p>The Shadow Union | Est. 2025</p>
+                        </div>
+                        ${data.content}
+                    </div>
+                    <script>
+                        function resetAllBalances() {
+                            const balanceElements = document.querySelectorAll('.account-balance');
+                            balanceElements.forEach(element => {
+                                if (!element.closest('.banker-card')) {
+                                    element.textContent = '৳ 0';
+                                    element.className = 'account-balance balance-zero';
+                                }
+                            });
+                            alert('সকল সদস্যের ব্যালেন্স ০ টাকা করা হয়েছে!');
+                        }
+                    <\/script>
+                </body>
+                </html>
+            `);
+            ministryWindow.document.close();
+        }
+
+        // মন্ত্রণালয়ের নাম পাওয়ার ফাংশন
+        function getMinistryName(ministry) {
+            const names = {
+                'swarastra': 'স্বরাষ্ট্র',
+                'pororastro': 'পররাষ্ট্র',
+                'porikkolpona': 'পরিকল্পনা',
+                'protirakkha': 'প্রতিরক্ষা',
+                'ortho': 'অর্থ',
+                'vasa': 'ভাষা',
+                'gonosongjog': 'গণসংযোগ',
+                'shikkha': 'শিক্ষা',
+                'shilpo': 'শিল্প',
+                'bumi': 'ভূমি',
+                'biggan': 'বিজ্ঞান ও প্রযুক্তি',
+                'totto': 'তথ্য, যোগাযোগ ও সাইবার',
+                'swastho': 'স্বাস্থ্য',
+                'krida': 'ক্রীড়া',
+                'poribesh': 'পরিবেশ',
+                'banijjo': 'বাণিজ্য',
+                'ain': 'আইন ও বিচার',
+                'nirbachon': 'স্থানীয় ও নির্বাচন',
+                'khaddo': 'খাদ্য',
+                'shomaj': 'সমাজকল্যাণ'
+            };
+            return names[ministry] || ministry;
+        }
+
         // কমিটি পেজ ওপেন করার ফাংশন
         function openCommittee() {
             const committeeContent = `
@@ -671,6 +1038,19 @@
                             color: white;
                             font-weight: bold;
                         }
+                        .back-btn {
+                            background: linear-gradient(45deg, #0f3460, #e94560);
+                            color: white;
+                            border: none;
+                            padding: 12px 25px;
+                            border-radius: 25px;
+                            cursor: pointer;
+                            font-weight: bold;
+                            margin-top: 20px;
+                            display: block;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
                     </style>
                 </head>
                 <body>
@@ -708,6 +1088,10 @@
                             <p><span class="highlight">ঠিকানা:</span> ফরিদপুর, এবি ইউনিয়ন, লালপুর, নাটোর</p>
                             <p><span class="highlight">মিডিয়া:</span> নেই</p>
                         </div>
+                        
+                        <button class="back-btn" onclick="window.close()">
+                            <i class="fas fa-arrow-left"></i> মূল পৃষ্ঠায় ফিরে যান
+                        </button>
                     </div>
                 </body>
                 </html>
